@@ -59,6 +59,10 @@ body {
       color: $gray;
       font-size: 1.3rem;
 
+      &:focus{
+          border: none;
+      }
+
       @media screen and( min-width:1200px) {
         grid-area: input;
         padding-left: 2rem;
